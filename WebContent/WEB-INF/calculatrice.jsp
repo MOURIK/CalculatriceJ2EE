@@ -7,10 +7,12 @@
 <title>Ma calculatrice</title>
 </head>
 <body>
-Bonjour
+
 <form method="post">
  <input name="terme1" type="number" step="any"/>+<input name="terme2" type="number" step="any"/> = <input name="Valider" type="submit" />
 </form>
+
+Résultat : ${empty erreur? resultat : erreur }
 
 </body>
 </html>
