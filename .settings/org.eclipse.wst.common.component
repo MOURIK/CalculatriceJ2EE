@@ -2,7 +2,7 @@
     <wb-module deploy-name="Calculatrice">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="Calculatrice"/>
         <property name="java-output-path" value="/Calculatrice/build/classes"/>
+        <property name="context-root" value="Calculatrice"/>
     </wb-module>
 </project-modules>

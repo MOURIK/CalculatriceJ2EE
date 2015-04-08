@@ -9,7 +9,7 @@
 <body>
 
 <form method="post">
- <input name="terme1" type="number" step="any"/>+<input name="terme2" type="number" step="any"/> = <input name="Valider" type="submit" />
+ <input name="terme1" type="number" step="any"/>+<input name="terme2" type="number" step="any"/> = <input name="Valider" value="Valider" type="submit" />
 </form>
 
 Résultat : ${empty erreur? resultat : erreur }
